@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movie List By Curtis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="client.js "></script>
+    <link rel="stylesheet " href="vendors/bootstrap.min.css ">
+    <link rel="stylesheet " type="text/css " media="screen " href="style.css " />
+
+</head>
+<header>Curtis's Movie Page</header>
+
+<body>
+
+    <section class="card-body">
+        <input type="text" placeholder="title" id="title">
+        <input type="text" placeholder="director" id="director">
+        <input type="number" placeholder="year" id="year">
+        <select placeholder="genre" id="genre"> 
+                <option default><em>Genre</em></option>
+                <option value="Horror"><em>Horror</em></option>
+                <option value="Action"><em>Action</em></option>
+                <option value="Comedy"><em>Comedy</em></option>
+                <option value="Drama"><em>Drama</em></option>
+                <option value="Thriller"><em>Thriller</em></option>
+                <option value="Documentary"><em>Documentary</em></option>              
+                </select>
+        <button type="button" id="submit">submit</button>
+    </section>
+    <table class="table-dark">
+        <thead id="headOfTable">
+            <tr>
+                <th><em><b>Title</b></em></th>
+                <th><em><b>Director</b></em></th>
+                <th><em><b>Year</b></em></th>
+                <th><em><b>Genre</b></em></th>
+            </tr>
+        </thead>
+
+
+    </table>
+
+    </section>
+
+</body>
+
+</html>
